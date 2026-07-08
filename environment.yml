@@ -3,6 +3,4 @@ channels:
   - conda-forge
   - nodefaults
 dependencies:
-  - climada=6.1
-  - mamba
-  - proj=9.8
+  - climada=6.1.0

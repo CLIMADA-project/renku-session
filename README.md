@@ -26,7 +26,7 @@ for dafi in polybox-schmide/*; do
 done
 ```
 
-## run imporcat forcasting workflow
+## run impact forecasting workflow
 
 ```bash
 python -m impact_forecasting_warning.pipelines.wind_impact_forecast --n-days 3

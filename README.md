@@ -20,10 +20,19 @@ cd ..
 
 ```bash
 mkdir ~/climada/data -p
+
 for dafi in polybox-schmide/*; do
     echo $dafi
     cp $dafi ~/climada/data/
 done
+```
+
+## alternative unzip gpw from zenodo
+
+```bash
+mkdir ~/climada/data -p
+
+unzip *-zenodo.*/*.zip -d ~/climada/data
 ```
 
 ## run impact forecasting workflow

@@ -12,7 +12,7 @@ cd ..
 echo install impact-forecasting-warning
 cd ./impact-forecasting-warning
 git checkout renku-env
-pip install -e
+pip install -e .
 cd ..
 ```
 
@@ -38,6 +38,5 @@ unzip *-zenodo.*/*.zip -d ~/climada/data
 ## run impact forecasting workflow
 
 ```bash
-python -m impact_forecasting_warning.pipelines.wind_impact_forecast --n-days 3
+python -I -m impact_forecasting_warning.pipelines.wind_impact_forecast --n-days 3
 ```
-

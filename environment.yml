@@ -49,7 +49,6 @@ dependencies:
   - xlrd>=2.0
   - xlsxwriter>=3.2
   - pip:
-    - git+https://github.com/CLIMADA-project/climada_python
-    - earthkit-data>=0.20.0,<0.21.0
-    - meteodata-lab>=0.7.2,<0.8.0
-    - srtm-py>=0.3.0,<0.4.0
+    - git+https://github.com/CLIMADA-project/climada_python@develop
+    - git+https://github.com/emanuel-schmid/impact-forecasting-warning@renku
+

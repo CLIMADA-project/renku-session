@@ -50,5 +50,5 @@ dependencies:
   - xlsxwriter>=3.2
   - pip:
     - git+https://github.com/CLIMADA-project/climada_python@develop
-    - git+https://github.com/emanuel-schmid/impact-forecasting-warning@renku
+    - git+https://github.com/emanuel-schmid/impact-forecasting-warning@renku-env
 
